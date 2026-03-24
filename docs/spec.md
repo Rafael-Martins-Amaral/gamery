@@ -37,7 +37,7 @@ Aplicação web front-end com:
 
 ### Entidade: Jogo
 
-``json
+```json
 {
  "id": 1,
  "titulo": "string",
@@ -46,7 +46,7 @@ Aplicação web front-end com:
  "nota": 1,
  "comentario": "string"
 }
-
+```
 ---
 
 *🧾 5. Formulário*
