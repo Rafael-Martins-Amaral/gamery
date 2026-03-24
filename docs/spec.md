@@ -45,23 +45,35 @@ Todas as páginas devem ser **responsivas** utilizando o framework CSS escolhido
 
 ```mermaid
 erDiagram
-USUARIO ||--o{ JOGO : "cadastra"
-USUARIO {
-string id PK
-string nome
-string email
-string senha
-}
-JOGO {
-string id PK
-string usuarioId FK
-string titulo
-string genero
-string plataforma
-int nota
-string comentario
-string dataCriacao
-}
+    USUARIO ||--o{ JOGO : "cadastra"
+    USUARIO ||--o{ INTERACAO : "realiza"
+    JOGO ||--o{ INTERACAO : "recebe"
+
+    USUARIO {
+        string id PK
+        string nome
+        string email
+        string senha
+    }
+
+    JOGO {
+        string id PK
+        string usuarioId FK
+        string titulo
+        string genero
+        string plataforma
+        int nota
+        
+    }
+
+    INTERACAO {
+        string id PK
+        string usuarioId FK
+        string jogoId FK
+        string comentario
+        string dataCriacao
+        string nota
+    }
 ```
 
 ---
