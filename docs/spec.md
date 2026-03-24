@@ -1,4 +1,4 @@
-⚙️ Gamory — Especificação Técnica (SPEC)
+## ⚙️ Gamory — Especificação Técnica (SPEC)
 
 ---
 
@@ -49,7 +49,7 @@ Aplicação web front-end com:
 ```
 ---
 
-*🧾 5. Formulário*
+## 🧾 5. Formulário
 Campos:
 título (text)
 gênero (select)
@@ -63,13 +63,13 @@ jQuery (eventos)
 
 ---
 
-*💾 6. Armazenamento*
+## 💾 6. Armazenamento
 LocalStorage:
 localStorage.setItem("jogos", JSON.stringify(lista));
 
 ---
 
-*🌐 7. API (JSON Server)*
+## 🌐 7. API (JSON Server)
 Endpoint:
 http://localhost:3000/jogos
 
@@ -86,31 +86,31 @@ fetch(url + id, { method: "DELETE" })
 
 ---
 
-*🔄 8. API Pública (ViaCEP)*
+## 🔄 8. API Pública (ViaCEP)
 fetch(`https://viacep.com.br/ws/${cep}/json/`)
 
 ---
 
-*⚡ 9. jQuery*
+## ⚡ 9. jQuery
 Uso:
 Manipulação de DOM
 Eventos de formulário
 
 ---
 
-*🔌 10. Plugin jQuery*
+## 🔌 10. Plugin jQuery
 Mask Plugin:
 $("#cep").mask("00000-000");
 
 ---
 
-*🧪 11. Validações*
+## 🧪 11. Validações
 Regex exemplo:
 /^[A-Za-z0-9 ]+$/
 
 ---
 
-*🛠️ 12. Ferramentas*
+## 🛠️ 12. Ferramentas
 Node.js
 NPM
 JSON Server
@@ -119,7 +119,7 @@ ESLint / Prettier
 
 ---
 
-*🚀 13. Execução do Projeto*
+## 🚀 13. Execução do Projeto
 Instalar dependências:
 npm install
 Rodar API:
@@ -127,7 +127,7 @@ json-server --watch db.json --port 3000
 
 ---
 
-*📌 14. Boas Práticas*
+## 📌 14. Boas Práticas
 Código modular
 Separação de responsabilidades
 Comentários claros
@@ -135,7 +135,7 @@ Versionamento com Git
 
 ---
 
-*✅ 15. Checklist Técnico*
+## ✅ 15. Checklist Técnico
 HTML estruturado
 CSS responsivo
 SCSS aplicado
