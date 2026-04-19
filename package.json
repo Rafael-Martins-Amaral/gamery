@@ -1,0 +1,30 @@
+{
+  "name": "gamory",
+  "version": "1.0.0",
+  "description": "Gamory é um projeto de uma aplicação web inspirada no Letterboxd, focada na avaliação e organização de jogos digitais.\r O sistema permite que usuários listem, atribuam notas e escrevam comentários sobre jogos, criando um histórico pessoal com experiências de seus jogos favoritos.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafael-Martins-Amaral/gamory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rafael-Martins-Amaral/gamory/issues"
+  },
+  "homepage": "https://github.com/Rafael-Martins-Amaral/gamory#readme",
+  "dependencies": {
+    "jquery": "^4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
