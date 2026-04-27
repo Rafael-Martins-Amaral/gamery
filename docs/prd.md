@@ -2,7 +2,7 @@
 
 ## 📌 1. Visão Geral
 Gamory é uma aplicação web inspirada no Letterboxd, focada na avaliação e organização de jogos digitais.
-6O sistema permite que usuários atribuam notas e escrevam comentários, criando um histórico pessoal de experiências.
+O sistema permite que usuários atribuam notas e escrevam comentários, criando um histórico pessoal de experiências.
 
 ---
 
@@ -17,7 +17,7 @@ Desenvolver uma aplicação web responsiva que permita:
 ### 👤 1.2 Público-Alvo
 - Estudantes
 - Gamers casuais e hardcore
-- Usuários que desejam organizar jogos jogados
+- Usuários que desejam avaliar os jogos jogados
 
 ---
 
@@ -39,7 +39,7 @@ Desenvolver uma aplicação web responsiva que permita:
 
 ### 🗓️ 2.2 Escopo do Projeto
 
-- 3 páginas HTML
+- 4 páginas HTML
 - Formulário com validação
 - API fake
 - LocalStorage
